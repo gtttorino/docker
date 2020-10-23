@@ -20,15 +20,15 @@
   },
   "acceptance-tests": {
     "endpoints": {
-      "docker": "http://api:4000/v1/"
+      "docker": "https://api:4000/v1/"
     }
   },
   "api": {
     "services": {
-      "placeholder": { "url": "http://placeholder:4100" },
-      "pip": { "url": "http://pip:4200" },
-      "interpolation": { "url": "http://interpolation:4300" },
-      "libpostal": { "url": "http://libpostal:4400" }
+      "placeholder": { "url": "https://placeholder:4100" },
+      "pip": { "url": "https://pip:4200" },
+      "interpolation": { "url": "https://interpolation:4300" },
+      "libpostal": { "url": "https://libpostal:4400" }
     },
     "defaultParameters": {
       "focus.point.lat": 45.52,
@@ -48,7 +48,7 @@
       "datapath": "/data/csv",
       "files": [],
       "download": [
-        "https://raw.githubusercontent.com/pelias/csv-importer/master/data/example.csv"
+        "httpss://raw.githubusercontent.com/pelias/csv-importer/master/data/example.csv"
       ]
     },
     "geonames": {
@@ -57,7 +57,7 @@
     },
     "openstreetmap": {
       "download": [
-        { "sourceURL": "https://s3.amazonaws.com/metro-extracts.nextzen.org/portland_oregon.osm.pbf" }
+        { "sourceURL": "httpss://s3.amazonaws.com/metro-extracts.nextzen.org/portland_oregon.osm.pbf" }
       ],
       "leveldbpath": "/tmp",
       "datapath": "/data/openstreetmap",
@@ -95,7 +95,7 @@
       "feeds": [
         {
           "layerId": "bikeshare",
-          "url": "http://biketownpdx.socialbicycles.com/opendata/station_information.json",
+          "url": "https://biketownpdx.socialbicycles.com/opendata/station_information.json",
           "filename": "BIKETOWN-hubs.json",
           "agencyId": "BIKETOWN",
           "agencyName": "BIKETOWN",
@@ -103,7 +103,7 @@
         },
         {
           "layerId": "stops",
-          "url": "http://developer.trimet.org/schedule/gtfs.zip",
+          "url": "https://developer.trimet.org/schedule/gtfs.zip",
           "filename": "TRIMET-stops.txt",
           "agencyId": "TRIMET",
           "agencyName": "TriMet",
@@ -111,7 +111,7 @@
         },
         {
           "layerId": "stops",
-          "url": "http://www.c-tran.com/images/Google/GoogleTransitUpload.zip",
+          "url": "https://www.c-tran.com/images/Google/GoogleTransitUpload.zip",
           "filename": "C-TRAN-stops.txt",
           "agencyId": "C-TRAN",
           "agencyName": "C-TRAN",
@@ -119,7 +119,7 @@
         },
         {
           "layerId": "stops",
-          "url": "http://oregon-gtfs.com/gtfs_data/rideconnection-or-us/rideconnection-or-us.zip",
+          "url": "https://oregon-gtfs.com/gtfs_data/rideconnection-or-us/rideconnection-or-us.zip",
           "filename": "RIDECONNECTION-stops.txt",
           "agencyId": "RIDECONNECTION",
           "agencyName": "Ride Connection",
@@ -127,7 +127,7 @@
         },
         {
           "layerId": "stops",
-          "url": "http://oregon-gtfs.com/gtfs_data/sandy-or-us/sandy-or-us.zip",
+          "url": "https://oregon-gtfs.com/gtfs_data/sandy-or-us/sandy-or-us.zip",
           "filename": "SAM-stops.txt",
           "agencyId": "SAM",
           "agencyName": "SAM",
@@ -135,7 +135,7 @@
         },
         {
           "layerId": "stops",
-          "url": "http://data.trilliumtransit.com/gtfs/wilsonville-or-us/wilsonville-or-us.zip",
+          "url": "https://data.trilliumtransit.com/gtfs/wilsonville-or-us/wilsonville-or-us.zip",
           "filename": "SMART-stops.txt",
           "agencyId": "SMART",
           "agencyName": "SMART",
@@ -143,7 +143,7 @@
         },
         {
           "layerId": "stops",
-          "url": "http://oregon-gtfs.com/gtfs_data/swanisland-or-us/swanisland-or-us.zip",
+          "url": "https://oregon-gtfs.com/gtfs_data/swanisland-or-us/swanisland-or-us.zip",
           "filename": "SWAN-stops.txt",
           "agencyId": "SWAN",
           "agencyName": "Swan Island",
