@@ -48,7 +48,7 @@
       "datapath": "/data/csv",
       "files": [],
       "download": [
-        "httpss://raw.githubusercontent.com/pelias/csv-importer/master/data/example.csv"
+        "https://raw.githubusercontent.com/pelias/csv-importer/master/data/example.csv"
       ]
     },
     "geonames": {
@@ -57,7 +57,7 @@
     },
     "openstreetmap": {
       "download": [
-        { "sourceURL": "httpss://s3.amazonaws.com/metro-extracts.nextzen.org/portland_oregon.osm.pbf" }
+        { "sourceURL": "https://s3.amazonaws.com/metro-extracts.nextzen.org/portland_oregon.osm.pbf" }
       ],
       "leveldbpath": "/tmp",
       "datapath": "/data/openstreetmap",
